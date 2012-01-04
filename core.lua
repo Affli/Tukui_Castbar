@@ -112,20 +112,20 @@ end
 
 if (config.separateplayer) then
     placeCastbar("player")
-    table.insert(T.MoverFrames, TukuiPlayerCastBar_PanelAnchor)
+    table.insert(T.AllowFrameMoving, TukuiPlayerCastBar_PanelAnchor)
 end
 
 if (config.separatetarget) then
     placeCastbar("target")
-    table.insert(T.MoverFrames, TukuiTargetCastBar_PanelAnchor)
+    table.insert(T.AllowFrameMoving, TukuiTargetCastBar_PanelAnchor)
 end
 
 if (config.separatefocus) then
     placeCastbar("focus")
-    table.insert(T.MoverFrames, TukuiFocusCastBar_PanelAnchor)
+    table.insert(T.AllowFrameMoving, TukuiFocusCastBar_PanelAnchor)
 end
 
 if (config.separatefocustarget and C["showfocustarget"]) then
     placeCastbar("focustarget")
-    table.insert(T.MoverFrames, TukuiFocusTargetCastBar_PanelAnchor)
+    table.insert(T.AllowFrameMoving, TukuiFocusTargetCastBar_PanelAnchor)
 end
